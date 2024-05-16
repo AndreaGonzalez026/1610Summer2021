@@ -1,0 +1,29 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "Simon & Marceline";
+      Console.WriteLine(name);
+      
+      int sub1 = 30-15;
+      Console.WriteLine(sub1);
+
+      int myNum = 5+3;
+      Console.WriteLine(myNum);
+      
+      double myDoubleNum = 2.5-1.5D;
+      Console.WriteLine(myDoubleNum);
+      
+      string myText = "It´s Muffin Time";
+      Console.WriteLine(myText);
+      
+      int Q = 15;
+      int W = 150;
+      Console.WriteLine(Q % W);
+     }
+  }
+}
